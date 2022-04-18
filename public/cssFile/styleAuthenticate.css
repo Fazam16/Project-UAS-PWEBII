@@ -1,0 +1,26 @@
+body {
+    background-color: #f8efdb;
+}
+
+.container {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 50%;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.btn {
+    margin-top: 15px;
+    margin-bottom: 55px;
+    background-color: whitesmoke;
+}
+
+.btn:hover {
+    color: rgb(43, 226, 165);
+}

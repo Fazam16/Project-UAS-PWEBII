@@ -1,0 +1,31 @@
+Kelompok 18 : 
+1. Bulan Fitri Dahlan 			(09021282025071)
+2. Elwina				(09021182025018)
+3. Fadhil Zahran Muwafa			(09021282025077)
+4. Fathur Achmad Hanafi			(09021282025069)
+5. Ichiro Gabriel Rivaldo Simbolon	(09021282025084)
+
+Link Video Kelompok 18
+Video Pertama 	: https://youtu.be/GWkCdS2fa5g
+Video Kedua	: https://youtu.be/skFQbXD6LAg
+Video Ketiga	: https://youtu.be/yNMiGYNRQB8
+Video Keempat	: 
+
+Detail Database
+Database 	: phplogin
+Tabel 	 	: accounts
+Query Tabel	: 
+CREATE TABLE account (
+    -> id int(10) AUTO_INCREMENT PRIMARY KEY,
+    -> fname VARCHAR(100),
+    -> username VARCHAR(100),
+    -> email VARCHAR(100),
+    -> password VARCHAR(250),
+    -> bdate date,
+    -> gender VARCHAR(10),
+    -> status VARCHAR(15),
+    -> bio VARCHAR(1000),
+    -> gambar VARCHAR(150))
+    -> Engine=InnoDB;
+
+

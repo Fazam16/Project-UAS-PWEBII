@@ -1,0 +1,86 @@
+body {
+    background-color: #f8efdb;
+    overflow-x: hidden;
+}
+
+.navbar-brand {
+    font-family: "Rampart One", cursive;
+    font-size: 35px;
+}
+
+.navbar-nav {
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    background-color: whitesmoke;
+}
+
+.navbar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 64px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 8px 10px 8px 20px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+#logout:hover {
+    color: rgb(43, 226, 165);
+}
+
+#link>a:hover {
+    color: rgb(43, 226, 165);
+}
+
+#logout {
+    color: black;
+}
+
+.table {
+    margin-right: 10px;
+}
+
+.out {
+    margin-right: 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+}
+
+h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+hr {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+#kartu {
+    margin-top: 50px;
+    background-color: whitesmoke;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 15px 50px;
+}
+
+.photo {
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+#about {
+    text-align: center;
+}
